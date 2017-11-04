@@ -4,18 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "request": "^2.83.0"
   },
   "engines": {
     "node": "6.x.x"
-  },
-  "scripts": {
-    "start": "node index.js"
   }
 }
